@@ -1,0 +1,83 @@
+body{
+    margin:0;
+    background-color: #ffffff;
+    font-family: "Arial", sans-serif;
+    height:100%;
+}
+header{
+    margin-top: 10px;
+    background-color: #f28393;
+    padding: 20px;
+    text-align: center;
+}
+h1{
+    color: #3a3438;
+    font-family:"Myrad Pro", sans-serif;
+    font-size: 40px;
+    text-decoration: underline;
+}
+h2{
+    color: #ffffff;
+    font-family: "Myrad Pro", sans-serif;
+}
+h3{
+    color: #3a3438;
+    background-color: #f28393;
+    font-family:"Arial", sans-serif;
+    font-size: 1.5em;
+    padding: 10px;
+}
+h4{
+    text-transform: uppercase;
+    font-size: 1.3em;
+    padding-left:10px;
+}
+p{
+    display:block;
+    color: #3a3438;
+    font-family:"Arial", sans-serif;
+    font-size:1.3em;
+    text-align: inherit;
+    padding:10px;
+}
+a:link{
+    color: #3a3438;
+}
+a:visited{
+    color: #3a3438;
+}
+a:hover{
+    color: #3a3438;
+}
+a:active{
+    color: #ffffff;
+}
+footer{
+    color: #3a3438;
+    background-color: #f28393;
+    padding: 15px;
+    text-align: center;
+}
+.updated{
+    color: #ffffff;
+    font-size: 15px;
+}
+.boxes{
+    display:flex;
+    flex-direction:row;
+    margin-left:auto;
+    margin-right:auto;
+    font-size:1em;
+    justify-content: center;
+}
+#images{
+    display:flex;
+}
+img{
+    margin-left:27px
+}
+.sshot{
+    width: 350px;
+    height: 1300px;
+    margin: 20px;
+}

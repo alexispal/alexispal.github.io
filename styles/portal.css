@@ -1,1 +1,53 @@
-This is the code for my portal
+body{
+    margin: auto;
+    max-width: 1000px;
+    background-color: #ffffff;
+    font-family: "Arial", sans-serif;
+
+}
+header{
+    margin-top: 10px;
+    background-color: #f28393;
+    padding: 20px;
+    text-align: center;
+}
+img{
+    float: right;
+    margin-top: ;
+}
+h1{
+    color: #3a3438;
+    font-family:"Myrad Pro", sans-serif;
+    font-size: 40px;
+}
+h2{
+    color: #3a3438;
+    font-family: "Myrad Pro", sans-serif;
+}
+main{
+    margin: 40px;
+    color: #3a3438;
+}
+a:link{
+    color: #3a3438;
+    padding-left: 5px;
+}
+a:visited{
+    color: #3a3438;
+}
+a:hover{
+    color: #3a3438;
+}
+a:active{
+    color: #ffffff;
+}
+footer{
+    color: #3a3438;
+    background-color: #f28393;
+    padding: 15px;
+    text-align: center;
+}
+.updated{
+    color: #ffffff;
+    font-size: 15px;
+}
