@@ -1,5 +1,3 @@
-console.log("checking for date");
-
 let daynames = [
     "Sunday",
     "Monday",
@@ -26,7 +24,7 @@ let monthnames = [
 let d = new Date();
 let dayName = daynames[d.getDay()];
 let monthName = monthnames[d.getMonth()];
-let fulldate = dayName + "," + monthName + " " + d.getDate() + "," + d.getFullYear();
+let fulldate = dayName + ", " + monthName + " " + d.getDate() + ", " + d.getFullYear();
 
 document.getElementById("currentdate").innerHTML = fulldate;
 

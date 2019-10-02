@@ -1,9 +1,9 @@
 body{
     margin: auto;
     max-width: 1000px;
+    min-width: 330px;
     background-color: #ffffff;
     font-family: "Arial", sans-serif;
-
 }
 header{
     margin-top: 10px;
@@ -23,6 +23,8 @@ h1{
 h2{
     color: #3a3438;
     font-family: "Myrad Pro", sans-serif;
+    border-bottom: .5px solid #3a3438;
+    padding-bottom: 5px;
 }
 main{
     margin: 40px;

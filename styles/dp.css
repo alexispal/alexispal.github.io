@@ -10,6 +10,11 @@ header{
     padding: 20px;
     text-align: center;
 }
+main{
+    margin: 0 auto;
+    display:flex;
+    justify-content: center;
+}
 h1{
     color: #3a3438;
     font-family:"Myrad Pro", sans-serif;
@@ -38,10 +43,11 @@ p{
     font-family:"Arial", sans-serif;
     font-size:1.3em;
     text-align: inherit;
-    padding:10px;
+    padding:15px;
 }
 a:link{
     color: #3a3438;
+    padding-left: 10px;
 }
 a:visited{
     color: #3a3438;
@@ -63,15 +69,9 @@ footer{
     font-size: 15px;
 }
 .boxes{
-    display:flex;
-    flex-direction:row;
-    margin-left:auto;
-    margin-right:auto;
-    font-size:1em;
-    justify-content: center;
-}
-#images{
-    display:flex;
+    display:grid;
+    grid-template-columns: 1fr;
+    font-size: 1em;
 }
 img{
     margin-left:27px
@@ -79,5 +79,26 @@ img{
 .sshot{
     width: 350px;
     height: 1300px;
-    margin: 20px;
+    justify-content: center;
+    border: .5px solid #3a3438;
+    border-radius: 1em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+/* medium view*/
+@media only screen and (min-width: 37.5em){
+    .boxes{ 
+        grid-template-columns: 1fr 1fr;
+        grid-gap:30px;
+    }
+
+}
+/* large view*/
+@media only screen and (min-width: 60em){
+    
+    .boxes{ 
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:30px;
+    }
 }
