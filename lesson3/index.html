@@ -9,12 +9,13 @@
     
     <link rel="stylesheet" href="styles/normalize.css">
 
-    <link rel="stylesheet" href="styles/small.css">
-    <link rel="stylesheet" href="styles/medium.css">
-    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
 
     <link href="https://fonts.googleapis.com/css?family=Baloo|Lexend+Giga&display=swap" rel="stylesheet">   
-    <style>
+
+<style>
         h1{
             font-family: 'Baloo', cursive;
         }
@@ -40,16 +41,29 @@
     </nav>
 
     <main>
-        <h2>Site Purpose</h2>
+        <h3>Site Purpose</h3>
         <p>The purpose of Weather Dot Com is to facilitate weather informations to locals in Preston,
-            Soda Springs, Fish Haven, and Storm Center. This site will also feature a Gallery of pictures
-            of each of those locations to reflect the current weather condition data on the town pages and 
-            the towns themselves. Weather Dot Com will be accessible on all classes of devices such as 
-            computers, tablets and smartphones.
+            Soda Springs, and Fish Haven. This site will also feature a Storm Center in which users can find 
+            more detailed information on storms happening in the area. A Gallery of pictures of each of 
+            those locations will be available as well, to reflect the current weather condition data on 
+            the town pages and the towns themselves. Weather Dot Com will be accessible on all classes 
+            of devices such as computers, tablets and smartphones.
         </p>
         
-        <h2>Logo</h2>
-            <img class="flash-logo" src="images/weather-dot-com-logo.png" alt="Lightning logo">
+        <h3>Logo</h3>
+            <img class="flash-logo" src="images/weather-dot-com-logo.png" height="250" alt="Lightning logo">
     </main>
+
+    <footer class="clear">
+            &copy;2019 Alexis Palfreyman | Texas, USA | <a href="https://www.byui.edu/online">BYU-I Online Learning</a>
+            <br>
+            <span class="updated">
+                Last Updated: <span id="currentdate"></span>
+                 <span id="lastupdated"></span>
+            </span>
+        </footer>
+    
+        <script src="js/lastupdated.js"></script>
+
 </body>
 </html>
