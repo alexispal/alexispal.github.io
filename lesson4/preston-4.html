@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", "initial-scale=1", viewport-fit=comver">
+    <title>Preston Idaho Town Page</title>
+    <meta name="description" content="Preston Idaho Town Page for Alexis Palfreyman in CIT 230: Web Frontend Development at BYU-I">
+    
+    <link rel="stylesheet" href="styles/normalize.css">
+
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Baloo|Lexend+Giga&display=swap" rel="stylesheet">   
+
+<style>
+        h1{
+            font-family: 'Baloo', cursive;
+        }
+        body {
+            font-family: 'Lexend Giga', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="images/weather-dot-com-logo-100px.png" alt ="Lightning Logo">
+        <section>
+            <h1 class="title">Weather Dot Com</h1>
+            <div class="motto">Knowing the weather-makes you feel better :)</div>
+        </section>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="#"">Home</a></li>
+            <li><a href="preston-4.html" class="active">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Preston Idaho</h2>
+        <div class="contentbox">Hero with weather summary</div>
+        <div class="contentbox">5 Day Forecast</div>
+        <div class="contentbox">Article</div>
+        <div class="contentbox">Contact Information</div>
+    </main>
+
+    <footer class="clear">
+        &copy;2019 Alexis Palfreyman | Texas, USA | <a href="https://www.byui.edu/online">BYU-I Online Learning</a>
+        <br>
+        <span class="updated">
+            Last Updated: <span id="currentdate"></span>
+             <span id="lastupdated"></span>
+        </span>
+    </footer>
+
+    <script src="js/toggleMenu.js"></script>
+    <script src="js/lastupdated.js"></script>
+
+</body>
+</html>

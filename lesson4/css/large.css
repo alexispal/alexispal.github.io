@@ -1,0 +1,22 @@
+@media only screen and (min-width: 60em){
+    body{
+        max-width: 1200px;
+        min-width: 330px;
+        height: 100%;
+    }
+    h1{
+        font-size: 50px;
+        margin-top: -2px;
+    }
+    .motto{
+        font-size: 15px;
+        margin-top:-50px;
+    }
+    h2{
+        font-size: 22px;
+    }
+    img{
+        height:auto;
+        max-width: 100px;
+    }
+}

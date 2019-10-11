@@ -1,0 +1,31 @@
+@media only screen and (min-width: 32.5em){
+h1{
+        font-size: 40px;
+        margin:-3;
+}
+footer{
+    font-size: 14px;
+}
+img{
+    height:auto;
+    max-width: 80px;
+}
+.motto{
+    font-size: 13px;
+    margin-top: -30px;
+}
+.navigation{
+    display: flex;
+    font-size: 12px;
+}
+.navigation li:first-child{
+    display: none;
+}
+.navigation li{
+    display: block;
+    flex: 1 1 100%;
+}
+.active{
+    background-color: #3DE1CC;
+}
+}
