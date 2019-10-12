@@ -1,7 +1,7 @@
 @media only screen and (min-width: 32.5em){
 h1{
         font-size: 40px;
-        margin:-3;
+        margin-top: 25px;
 }
 footer{
     font-size: 14px;
@@ -23,7 +23,7 @@ img{
 }
 .navigation li{
     display: block;
-    flex: 1 1 100%;
+    flex: 1 1 100%;   
 }
 .active{
     background-color: #3DE1CC;
