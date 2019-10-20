@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Weather Dot Com | Preston Idaho Town Page</title>
+    <meta name="description" content="Preston Idaho Town Page - Local Weather for Alexis Palfreyman in CIT 230: Web Frontend Development at BYU-I">
+    <link rel="shortcut icon" href="favicon.ico">
+    
+    <link rel="stylesheet" href="styles/normalize.css" type="text/css">
+
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Baloo|Lexend+Giga&display=swap" rel="stylesheet">   
+
+<style>
+        h1{
+            font-family: 'Baloo', cursive;
+        }
+        body {
+            font-family: 'Lexend Giga', sans-serif;
+        }
+    </style>
+
+</head>
+
+<body>
+    <aside class="banner-show">
+        "Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion"
+    </aside>
+    <header>
+        <img src="images/weather-dot-com-logo-100px.png" alt ="Lightning Logo">
+        <section>
+            <h1 class="title">Weather Dot Com</h1>
+            <div class="motto">Knowing the weather-makes you feel better :)</div>
+        </section>
+    </header>
+
+    <nav>
+            <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="preston-4.html" class="active">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Preston Idaho</h2>
+        <div class="contentbox1">
+            <div class="hero-image">
+                <img src="images/hero-image.jpg" alt="mountain view with lake">
+            </div>
+            <section class="weather-summary">
+                <h3>Weather Summary</h3>
+                <div class="ws-content">
+                    <div class="column1">Currently:</div>
+                    <div>Sunny</div>
+                    <div class="column1">High:</div>
+                    <div>76°F</div>
+                    <div class="column1">Wind Chill:</div>
+                    <div>°F</div>
+                    <div class="column1">Humidity:</div>
+                    <div>69%</div>
+                    <div class="column1">Wind Speed:</div>
+                    <div>5mph</div>
+                </div>
+            </section>
+        </div>
+
+        <div class="contentbox2">
+
+            <section class="weather">
+
+            <h3>5 Day Forecast</h3>
+
+            <div class="line">
+                <div class="forecastday 1">Wed</div>
+                <div class="forecastday 2">Thu</div>
+                <div class="forecastday 3">Fri</div>
+                <div class="forecastday 5">Sat</div>
+                <div class="forecastday 6">Sun</div>
+            </div>
+
+            <div class="line">
+                <div class="forecast-img">
+                <img src="images/sun.png" alt="weather icon">
+                </div>
+                <div class="forecast-img">
+                <img src="images/sun.png" alt="weather icon">
+                </div>
+                <div class="forecast-img">
+                <img src="images/sun.png" alt="weather icon">
+                </div>
+                <div class="forecast-img">
+                <img src="images/sun.png" alt="weather icon">
+                </div>
+                <div class="forecast-img">
+                <img src="images/sun.png" alt="weather icon">
+                </div>
+            </div>
+                
+            <div class="line">
+                <div class="forecast-temp">89 °F</div>
+                <div class="forecast-temp">87 °F</div>
+                <div class="forecast-temp">78 °F</div>
+                <div class="forecast-temp">75 °F</div>
+                <div class="forecast-temp">72 °F</div>
+            </div>
+                
+            </section>
+        </div>
+
+        <div class="contentbox3">
+            <h3>About Preston</h3>
+        <img class="article-img" src="images/park.jpg" alt="hangout at the park">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec molestie nibh. Nam interdum, dolor vel laoreet euismod, turpis est
+            pharetra ex, non lobortis elit augue fermentum elit. Curabitur ut gravida mi. Ut blandit tincidunt feugiat. Duis eget vehicula metus. Cras 
+            viverra magna a ante viverra faucibus. Nam ut sodales ex, eget efficitur risus. Suspendisse volutpat diam sed semper facilisis.
+        </p>
+        </div>
+        <div class="contentbox4">
+            <div class="map">
+                <img src="data:image/jpeg;base64,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" alt="map of preston idaho">
+            </div>
+            <div class="info">
+                <p>Southeast Idaho Weather<br>
+                9786 East 76 North<br>Preston,ID 85246<br><br>
+                ☎ (208) 976-5635<br>
+                ✉ <a href="mailto:weather@idaho.com">weather@idaho.com</a></p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="clear">
+        &copy;2019 Alexis Palfreyman | Texas, USA | <a href="https://www.byui.edu/online">BYU-I Online Learning</a>
+        <br>
+        <span class="updated">
+            Last Updated: <span id="currentdate"></span>
+             <span id="lastupdated"></span>
+        </span>
+    </footer>
+
+    <script src="js/togglemenu.js"></script>
+    <script src="js/currentdate.js"></script>
+
+</body>
+</html>
