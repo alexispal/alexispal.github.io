@@ -19,13 +19,10 @@
         max-width: 100px;
     }
     footer{
-        max-width: 1000px;
+        max-width: 80%;
         margin:0 auto;
     }
     main{
-        max-width:1000px;
-    }
-    .article-img{
-        float:right;
+        max-width:80%;
     }
 }
