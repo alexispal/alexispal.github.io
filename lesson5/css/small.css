@@ -3,6 +3,7 @@ body{
     background-color: #ffffff;
     font-family: 'Lexend Giga', sans-serif;
 }
+
 header{
     background-color: #3DE1CC;
     margin: 0 auto;
@@ -71,12 +72,6 @@ nav{
 .active{
     background-color: #3DE1CC;
 }
-.contentbox{
-    text-align: left;
-    border: 1px dotted #FFAA7D;
-    padding: 10px;
-    margin: 10px;
-}
 .contentbox:hover{
     background-color: #D09EFF;
 }
@@ -95,9 +90,6 @@ main{
 }
 .contentbox1{
     position: relative;
-    margin: 10px;
-    margin: 10px;
-    padding: 20px;
 }
 .hero-image{
     width:100%;
@@ -105,18 +97,20 @@ main{
 }
 .hero-image img{
     width: 100%;
+    height: 300px;
 }
 .weather-summary{
     position: absolute;
-    top: 50px;
-    left: 60px;
-    background-color: #FFAA7D;
-    padding: 15px;
+    top: 20px;
+    left: 30px;
+    background-color: rgba(255,170,125);
+    padding: 10px;
 }
 .weather-summary h3{
     margin: 0;
-    padding-top: 10px;
+    padding-top: 5px;
     border-bottom: solid #3DE1CC 1px;
+    font-size:.8rem;
 }
 .ws-content{
     padding-top:10px;
@@ -126,16 +120,15 @@ main{
 }
 .ws-content div{
     margin: 0;
-    line-height: 1.5rem;
+    line-height: 1rem;
+    font-size: .7rem;
 }
 .column1{
     display: grid;
     justify-items:end;
 }
 .contentbox2{
-    position: relative;
-    margin: 10px;
-    padding: 20px;
+    display: none;
 }
 .contentbox2 h3{
     font-size: 1.2rem;
@@ -194,23 +187,26 @@ main{
 .article{
     text-align: left;
 }
+.articlebox{
+    display: flex;
+    flex-direction: column;
+}
 .contentbox3{
-    position: relative;
     border: 2px solid #3DE1CC;
     margin: 10px;
     padding: 20px;
 }
 .contentbox3 p{
-    width: 50%;
+    width: 100%;
 }
 .article-img{
-    display: block;
-    width: 50%;
-    margin-top: -80px;
+    width: 100%;
+    margin-top: -40px;
 
 }
 .article-title{
     font-size: 17px;
+
 }
 .contentbox4{
     display: flex;
@@ -226,11 +222,13 @@ main{
     padding: 20px;
 }
 .map{
-    width: 100%;
-    
+    display: none;
 }
 .info{
-    width: 50%;
+    width: 100%;
+    font-size: .7rem;
+    text-align: center;
+    justify-content: center;
 }
 footer{
     background-color: #FFAA7D;
