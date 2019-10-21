@@ -150,36 +150,63 @@ main{
 .weather h3{
     padding-bottom: 10px;
 }
+.line{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:100%;
+    margin: 0 auto;
+}
 .forecastday{
-    display: block;
-    max-width: 100%;
-    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-basis:100%;
+    flex:1;
+    margin: 0 auto;
     align-items: center;
     justify-content: center;
     background-color: #3DE1CC;
     border: 1px solid #c5c5c5;
-    border-radius: 5%;
-    max-width: 20%;
+    padding: 7px;
 }
-.forecastday img{
-    display: block;
+.forecast-img{
+    margin: 0 auto;
+    width: 20%;
     align-items: center;
     justify-content: center;
-    margin-top: -30px;
-    margin-bottom: -30px;
+    border: 1px solid #c5c5c5;
+    box-sizing: border-box;
+}
+.forecast-temp{
+    display: flex;
+    flex-direction: column;
+    flex-basis:100%;
+    flex:1;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid #c5c5c5;
+    border-bottom: 1px solid #c5c5c5;
+    border-right: 1px solid #c5c5c5;
+    padding: 7px;
+
+}
+.article{
+    text-align: left;
 }
 .contentbox3{
+    position: relative;
     border: 2px solid #3DE1CC;
     margin: 10px;
     padding: 20px;
 }
 .contentbox3 p{
-    width:40%;
+    width: 50%;
 }
 .article-img{
     display: block;
-    width: 40%;
-    margin: 10px auto;
+    width: 50%;
+    margin-top: -80px;
 
 }
 .article-title{
