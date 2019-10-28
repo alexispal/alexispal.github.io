@@ -18,6 +18,22 @@
         height: auto;
         max-width: 100px;
     }
+    .img-label{
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 1em;
+        padding: 10px;
+    }
+    #large{
+        color: red;
+    }
+    #small{
+        color:black;
+    }
+    #medium{
+        color:black;
+    }
     footer{
         max-width: 80%;
         margin:0 auto;

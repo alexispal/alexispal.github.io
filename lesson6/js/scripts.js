@@ -1,5 +1,5 @@
 //Hide Banner-Except on Fidays//
-function banner-show() {
+function bannershow() {
 	var d = new Date();
 	var n = d.getDay();
 	if (n == 5) {

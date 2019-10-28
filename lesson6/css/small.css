@@ -82,7 +82,7 @@ nav{
 }
 
 /***Banner***/
-.banner-show{
+.bannershow{
     display:block;
     text-align: center;
     background-color: #D09EFF;
@@ -105,6 +105,16 @@ main{
 .hero-image img{
     width: 100%;
     height: 300px;
+}
+.img-label{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 1em;
+    padding: 10px;
+}
+#small{
+    color: red;
 }
 .weather-summary{
     position: absolute;
