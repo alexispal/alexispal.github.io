@@ -1,0 +1,28 @@
+@media only screen and (min-width: 60em){
+    body{
+        min-width: 330px;
+        height: 100%;
+    }
+    h1{
+        font-size: 50px;
+        margin-top: -2px;
+    }
+    .motto{
+        font-size: 15px;
+        margin-top:-50px;
+    }
+    h2{
+        font-size: 22px;
+    }
+    header img{
+        height: auto;
+        max-width: 100px;
+    }
+    footer{
+        max-width: 80%;
+        margin:0 auto;
+    }
+    main{
+        max-width:80%;
+    }
+}
