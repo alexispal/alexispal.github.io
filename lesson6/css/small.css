@@ -37,11 +37,6 @@ h2{
     font-size: 18px;
 }
 
-/***Footer***/
-footer{
-    font-size: 10px;
-}
-
 /***Navigation***/
 nav{
     margin:0 auto;
@@ -251,4 +246,5 @@ footer{
     background-color: #FFAA7D;
     padding: 15px;
     text-align: center;
+    font-size: 10px;
 }
