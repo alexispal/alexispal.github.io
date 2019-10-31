@@ -27,12 +27,22 @@ picture{
 }
 picture img{
     border: 5px solid #c5c5c5;
-    margin: 20px;
+    padding: 5px 5px 5px 5px;
     filter: blur(0em);
-    transition: filter 0.5s;
+    transition: filter 1s;
 }
 picture img[data-src] {
-    filter: blur(0.1em);
+    filter: blur(1em);
+}
+picture figcaption {
+    display:grid;
+    padding: 1px 0px 20px 0px;
+    text-decoration: underline #c5c5c5;
+}
+figcaption{
+    text align: center;
+    font-size: .8em;
+    padding-top: 5px;
 }
 footer{
     background-color: #FFAA7D;
