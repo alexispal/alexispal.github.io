@@ -84,6 +84,8 @@ nav{
 .banner-hide{
     display:none;
 }
+
+/**********main**********/
 main{
     padding-top: 1rem;
     margin: auto;
