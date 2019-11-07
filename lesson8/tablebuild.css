@@ -6,6 +6,7 @@ body{
 header, footer{
     background-color: #7fb9c2;
     padding: 5px;
+    box-shadow: 10px 10px 10px #6286a6;
 }
 h2{
     text-align: center;
@@ -15,6 +16,7 @@ table{
     justify-content: center;
     margin: 0 auto;
     border-spacing: 0px;
+    box-shadow: 10px 10px 10px #6286a6;
 }
 
 th,td{
@@ -30,6 +32,7 @@ th{
 }
 table tr:nth-child(5n) td:nth-child(3){
     background-color: #628ca6;
+    color: white;
 }
 table tr:nth-child(6n) td:nth-child(2){
     display: flex;
