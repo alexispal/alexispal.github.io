@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<!DOCTYPE html>
-<html lang="en-us">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width-device-width">
@@ -48,7 +45,7 @@
 
         <main>
             <h2>Storm Center</h2>
-            <form method:"get" action="thanks.html">
+            <form method="get" action="thanks.html">
                 <fieldset>
                     <legend>Personal Information</legend>
                     <label class="top">
@@ -87,8 +84,8 @@
                     </label>
 
                     <div>Storm Severity (1 to 10)</div>
-                    <label class="sbs" for="rating">
-                        <input type="range" id="rating" name="rating" value="5" min="1" max="10" step="1"
+                    <label class="sbs" for="rating" id="rating">
+                        <input type="range" id="ratings" name="rating" value="5" min="1" max="10" step="1"
                             list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                         <span id="ratingvalue"></span>
                     </label>
@@ -136,6 +133,7 @@
                 <input class="submitbutton" type="submit" name="report" value="SUBMIT MY REPORT">
             </form>
         </main>
+        </div>
 </body>
 
 <footer class="clear">
