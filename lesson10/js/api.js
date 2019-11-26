@@ -45,16 +45,19 @@ fetch(forecastAPI)
         var day_count = 1;
         for (var day of jsObject.list) {
             if (day.dt_txt.includes("18:00:00")) {
+                console.log("day");
                 var date = new Date(day.dt_txt);
                 var dayName = dayNames[date.getDay()];
                 document.getElementById("day" + day_count).textContent = dayName;
 
-                const f = KtoF(day.main.temp);
+                const f = (day.main.temp);
                 var fahrenheit = f.toFixed(0);
                 document.getElementById("temp" + day_count).textContent = fahrenheit;
                 const imagesrc = 'https://openweathermap.org/img/w/' + day.weather[0].icon + '.png';  
+                console.log(imagesrc);
                 const desc = day.weather[0].description;
-                document.getElementById('forecast-img' + day_count).setAttribute('src', imagesrc); 
+                let idimg = 'forecast-img' + day_count;
+                document.getElementById(idimg).setAttribute('src', imagesrc); 
                 document.getElementById('forecast-img' + day_count).setAttribute('alt', desc);
                 day_count = day_count + 1;
             }
