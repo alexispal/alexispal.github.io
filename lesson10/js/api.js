@@ -1,12 +1,14 @@
-const currentAPI = 'https://samples.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=6a75ea9bff90407ac460f2b0f0297e8b';
+const currentAPI = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=6a75ea9bff90407ac460f2b0f0297e8b';
 
 fetch(currentAPI)
     .then((response) => response.json())
     .then((jsObject) => {
-        console.log(jsObject);
-         
+        console.log("info"+jsObject);
+         console.log("inside");
        
      document.getElementById('current').textContent = jsObject.weather[0].description;
+
+     console.log(jsObject.weather[0].description);
      document.getElementById('temp').textContent = jsObject.main.temp.toFixed(0);
      document.getElementById('humidity').textContent = jsObject.main.humidity;
      document.getElementById('speed').textContent = jsObject.wind.speed.toFixed(1);
@@ -55,10 +57,10 @@ fetch(forecastAPI)
                 document.getElementById("temp" + day_count).textContent = fahrenheit;
                 const imagesrc = 'https://openweathermap.org/img/w/' + day.weather[0].icon + '.png';  
                 console.log(imagesrc);
-                const desc = day.weather[0].description;
+                let desc = day.weather[0].description;
                 let idimg = 'forecast-img' + day_count;
                 document.getElementById(idimg).setAttribute('src', imagesrc); 
-                document.getElementById('forecast-img' + day_count).setAttribute('alt', desc);
+                // document.getElementById(idimg).setAttribute('alt', desc);
                 day_count = day_count + 1;
             }
         }
