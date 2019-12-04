@@ -41,4 +41,12 @@
     main{
         max-width:80%;
     }
+    .ws-content p{
+        line-height: .5rem;
+        font-size: .9rem;
+        
+    }
+    .forecast{
+        font-size: 1.5em;
+    }
 }

@@ -1,101 +1,108 @@
 @media only screen and (min-width: 32.5em){
-h1{
-        font-size: 40px;
-        margin-top: 25px;
-}
-footer{
-    font-size: 14px;
-}
-header img{
-    height: auto;
-    max-width: 80px;
-}
-.motto{
-    font-size: 13px;
-    margin-top: -30px;
-}
-.navigation{
-    display: flex;
-    font-size: 12px;
-}
-.navigation li:first-child{
-    display: none;
-}
-.navigation li{
-    display: block;
-    flex: 1 1 100%;   
-}
-.active{
-    background-color: #3DE1CC;
-}
-.weather{
-    display: block;
-}
-.hero-image img{
-    width: 100%;
-    height: auto;
-}
-.weather-summary{
-    position: absolute;
-    top: 50px;
-    left: 60px;
-    background-color: rgb(255,170,125);
-    padding: 15px;
-}
-.weather-summary h3{
-    margin: 0;
-    padding-top: 10px;
-    border-bottom: solid #3DE1CC 1px;
-    font-size:1.1rem;
-}
-.img-label{
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    font-size: 1em;
-    padding: 10px;
-}
-#medium{
-    color: red;
-}
-#small{
-    color:black;
-}
-.ws-content div{
-    margin: 0;
-    line-height: 1.5rem;
-    font-size: .9rem;
-}
-.contentbox2{
-    display: block;
-}
-.forecast-img img{
-    max-width: 60px;
-    max-height: 70px;
-}
-.articlebox{
-    display: flex;
-    flex-direction: row-reverse;
-}
-.article img{
-    width:50%;
-}
-.article p{
-    width:50%;
-}
-.map{
-    display: block;
-    width: 100%;
-}
-.article-img{
-    display: block;
-    float: right;
-    width: 50%;
-    padding: 10px;
-}
-.info{
-    width: 50%;
+    h1{
+            font-size: 40px;
+            margin-top: 25px;
+    }
+    footer{
+        font-size: 14px;
+    }
+    header img{
+        height: auto;
+        max-width: 80px;
+    }
+    .motto{
+        font-size: 13px;
+        margin-top: -30px;
+    }
+    .navigation{
+        display: flex;
+        font-size: 12px;
+    }
+    .navigation li:first-child{
+        display: none;
+    }
+    .navigation li{
+        display: block;
+        flex: 1 1 100%;   
+    }
+    .active{
+        background-color: #3DE1CC;
+    }
+    .weather{
+        display: block;
+    }
+    .hero-image img{
+        width: 100%;
+        height: auto;
+    }
+    .weather-summary{
+        position: absolute;
+        top: 50px;
+        left: 60px;
+        background-color: rgb(255,170,125);
+        padding: 15px;
+    }
+    .weather-summary h3{
+        margin: 0;
+        padding-top: 10px;
+        border-bottom: solid #3DE1CC 1px;
+        font-size:1.1rem;
+    }
+    .img-label{
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 1em;
+        padding: 10px;
+    }
+    #medium{
+        color: red;
+    }
+    #small{
+        color:black;
+    }
+    .ws-content p{
+        margin: 0;
+        line-height: .5rem;
         font-size: .8rem;
-        text-align: left;
-}
-}
+    }
+    
+    .contentbox2{
+        display: block;
+    }
+    .forecast-img img{
+        max-width: 60px;
+        max-height: 70px;
+    }
+    .articlebox{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .article img{
+        width:50%;
+    }
+    .article p{
+        width:50%;
+    }
+    .map{
+        display: block;
+        width: 100%;
+    }
+    .article-img{
+        display: block;
+        float: right;
+        width: 50%;
+        padding: 10px;
+    }
+    .info{
+        width: 50%;
+            font-size: .8rem;
+            text-align: left;
+    }
+    .forecast{
+        display: block;
+        font-size: 1.3em;
+        align-items: center;
+        justify-content: center;
+    }
+    }

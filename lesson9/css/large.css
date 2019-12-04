@@ -47,5 +47,16 @@ form fieldset{
 }
 
 /***Town Data***/
+div.town-data section{
+    display: grid;
+  }
+div.town-data {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+div.town-data section {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 80%;
+}
 
 }

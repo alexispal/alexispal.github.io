@@ -1,0 +1,62 @@
+/***SMALL VIEW*/
+@import url("https://fonts.googleapis.com/css?family=Marko+One&display=swap");
+
+body {
+    text-align: center;
+}
+div {
+    display: grid;
+    grid-template-columns: 100%;
+}
+main {
+    box-shadow: 0 0 25px #333;
+    background-color: lightgray;
+    margin: 20px;
+    padding: 15px;
+}
+h1 {
+    font-size: 2rem;
+    font-family: 'Marko one', serif;
+    color: #4d4d96;
+}
+h2 {
+    font-family: 'Marko one', serif;
+    font-size: 1.5rem;
+    color: #4e4e96;
+}
+p {
+    font-size: 1rem;
+    font-family: 'B612', sans-serif;
+}
+img {
+    width: 60%;
+    margin: 10px auto;
+    display: block;
+    box-shadow: 0 0 30px #333;
+}
+section {
+    background-color: #b9b9cc;
+    border: 1px solid #3f3669;
+    margin: 5px;
+    padding: 1rem;
+}
+footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+/***MEDIUM VIEW***/
+@media only screen and (min-width: 37.5em) {
+.cards {
+    grid-template-columns: 50% 50%;
+}    
+}
+
+/***LARGE VIEW***/
+@media only screen and (min-width: 60em) {
+.cards {
+    grid-template-columns: 25% 25% 25% 25%;
+}
+}

@@ -54,12 +54,18 @@ document.getElementById("currentdate").innerHTML = fulldate;
 // }
 
 //Last Updated Date//
-var date = new Date();
-document.getElementById("lastupdated").innerHTML = date;
+//var date = new Date();
+//document.getElementById("lastupdated").innerHTML = date;
 
 //Hamburger Menu//
 function toggleMenu() {
     document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
 }
 
-//
+
+
+
+
+
+
+

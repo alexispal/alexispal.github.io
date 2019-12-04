@@ -160,12 +160,22 @@ form input.submitbutton{
 }
 
 /***Town Data***/
-div.towns {
-    border: 2px solid #FFAA7D;
-    margin: 10px;
-    padding: 10px;
-  }
-  
+main div{
+    display: grid;
+    grid-template-columns: 100%
+}
+.towns section{
+    display: grid;
+    border: 1px solid #FFAA7D;
+    margin: 1rem;
+    padding: 1rem;
+}
+.towns img{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
   div.town-data {
     margin: 0 auto;
     display: grid;
@@ -179,11 +189,11 @@ div.towns {
     grid-template-rows: auto;
     justify-content: space-between;
     border: 1px solid#c5c5c5;
-    width: 100%;
+    width: 80%;
     margin: 1rem 0;
   }
   div.town-data section div.town-info {
-    margin: 1rem;
+    margin: .5rem;
   }
   div.town-data section h3 {
     font-size: 1.3rem;
@@ -204,6 +214,7 @@ div.towns {
   
   div.town-data section div.town-image {
     display: grid;
+    grid-template-columns: 1fr;
   }
   
   div.town-data section div.town-image img {
