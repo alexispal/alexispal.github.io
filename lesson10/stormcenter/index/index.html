@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width">
+    <title>Home Page</title>
+    <meta name="description" content="The Weather Site Home Page">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="https://cloudfare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+    <link rel="stylesheet" href="css/small.css" type="text/css">
+    <link rel="stylesheet" href="css/medium.css" type="text/css">
+    <link rel="stylesheet" href="css/large.css" type="text/css">
+
+    <link href="https://fonts.googleapis.com/css?family=Baloo|Lexend+Giga&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="content">
+        <aside class="banner-show" style="display: none;">
+            <p>"Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion"</p>
+        </aside>
+        <header>
+            <img src="images/weather-dot-com-logo-100px.png" alt="Lightning Logo">
+            <section>
+                <h1 class="title">Weather Dot Com</h1>
+                <div class="motto">Knowing the weather-makes you feel better :)</div>
+            </section>
+        </header>
+
+        <nav>
+            <ul class="navigation">
+                <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="#">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="stormcenter.html">Storm Center</a></li>
+                <li><a href="gallery-7.html">Gallery</a></li>
+            </ul>
+        </nav>
+
+        <main>
+                <h2>Town Details</h2>
+                <div class="towns"></div>
+                <section>
+                    <div class="town-data"></div>
+                </section>
+                <section>
+                    <div class="town-data"></div>
+                </section>
+                <section>
+                    <div class="town-data"></div>
+                </section>
+                
+            </div>
+        </main>
+
+    </body>
+
+    <footer class="clear">
+        &copy;2019 Weather Dot Com | Atributions | <a href="alexispal.github.io/index.html">Alexis Palfreyman</a>
+        <br>
+        <span class="updated">
+            Current Date: <span id="currentdate"></span>
+            <span id="lastupdated"></span>
+        </span>
+    </footer>
+    
+    <script src="js/scripts.js"></script>
+    <script src="js/currentdate.js"></script>
+    <script src="js/lazyload.js"></script>
+    
+    </html>

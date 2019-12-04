@@ -70,3 +70,50 @@ fetch(forecastAPI)
     function KtoF(kelvin){
         return (((kelvin - 273.15) * 9) / 5) + 32;
     }
+
+    
+     //Events//
+const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+fetch(requestURL)
+    .then(function (response) {
+        return response.json();
+    })
+    .then(function (jsonObject) {
+        const towns = jsonObject['towns'];
+        var town = document.getElementsByTagName("h2")[0].textContent;
+        for (let i = 0; i < towns.length; i++) {
+            if (towns[i].name == 'Preston' && town == "Preston Idaho") {
+                let townevents = document.createElement('ul');
+
+                for (let j = 0; j < towns[i].events.length; j++) {
+                    let event = document.createElement('li');
+                    event.textContent = towns[i].events[j];
+                    townevents.appendChild(event);
+                }
+
+                document.querySelector('div.events').appendChild(townevents);
+            }
+            else if (towns[i].name == 'Soda Springs' && town == "Soda Springs Idaho") {
+                let townevents = document.createElement('ul');
+
+                for (let j = 0; j < towns[i].events.length; j++) {
+                    let event = document.createElement('li');
+                    event.textContent = towns[i].events[j];
+                    townevents.appendChild(event);
+                }
+
+                document.querySelector('div.events').appendChild(townevents);
+            }
+            else if (towns[i].name == 'Fish Haven' && town == "Fish Haven Idaho") {
+                let townevents = document.createElement('ul');
+
+                for (let j = 0; j < towns[i].events.length; j++) {
+                    let event = document.createElement('li');
+                    event.textContent = towns[i].events[j];
+                    townevents.appendChild(event);
+                }
+
+                document.querySelector('div.events').appendChild(townevents);
+            }
+        }
+    });

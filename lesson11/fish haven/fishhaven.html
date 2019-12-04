@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Weather Dot Com |  Fish Haven Weather Page</title>
+    <meta name="description"
+        content="Fish Haven Weather API - Local Weather for Alexis Palfreyman in CIT 230: Web Frontend Development at BYU-I">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="styles/normalize.css" type="text/css">
+
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Baloo|Lexend+Giga&display=swap" rel="stylesheet">
+
+    <style>
+        h1 {
+            font-family: 'Baloo', cursive;
+        }
+
+        body {
+            font-family: 'Lexend Giga', sans-serif;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="content">
+        <aside class="bannershow" style="display: none;">
+            <p>"Saturday = Fish Haven Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion"</p>
+        </aside>
+        <header>
+            <img src="images/weather-dot-com-logo-100px.png" alt="Lightning Logo">
+            <section>
+                <h1 class="title">Weather Dot Com</h1>
+                <div class="motto">Knowing the weather-makes you feel better :)</div>
+            </section>
+        </header>
+
+        <nav>
+            <ul class="navigation">
+                <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Preston</a></li>
+                <li><a href="">Soda Springs</a></li>
+                <li><a href="fishhaven.html" class="active">Fish Haven</a></li>
+                <li><a href="">Storm Center</a></li>
+                <li><a href="">Gallery</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <h2>Fish Haven Idaho</h2>
+            <div class="contentbox1">
+                <div class="hero-image">
+                    <img src="images/hero-image.jpeg" alt="grass, sky, and sun"
+                        srcset="images/hero-image.jpeg 527w, images/hero-image.jpeg 895w, images/hero-image.jpeg 1080w"
+                        sizes="100vw">
+                </div>
+                <section class="weather-summary">
+                    
+                    <div class="ws-content">
+                            <h3>Weather Summary</h3>
+                        <p>Currently:
+                            <span id="current"></span>
+                        </p><br />
+                        <p>High:
+                            <span id="temp"></span>
+                        </p> <br />
+                        <p>Wind Chill:
+                            <span id="chill"></span>
+                        </p> <br />
+                        <p>Humidity:
+                            <span id="humidity"></span>
+                        </p> <br />
+                        <p>Wind Speed:
+                            <span id="speed"></span>
+                        </p>
+                    </div>
+                </section>
+                <section class="img-label">
+                    <div id="large">Large</div>
+                    <div id="medium">Medium</div>
+                    <div id="small">Small</div>
+                </section>
+            </div>
+
+            <div class="forecast">
+                
+                <div class="contentbox2">
+
+                    <section class="weather">
+
+                        <h3>5 Day Forecast</h3>
+
+                        <div class="line">
+                            <div id="day1"></div>
+                            <div id="day2"></div>
+                            <div id="day3"></div>
+                            <div id="day4"></div>
+                            <div id="day5"></div>
+                        </div>
+
+                        <div class="line">
+                            <img id="forecast-img1" src="" alt="">
+                            <span id="temp1"></span>
+
+                            <img id="forecast-img2" src="" alt="">
+                            <span id="temp2"></span>
+
+                            <img id="forecast-img3" src="" alt="">
+                            <span id="temp3"></span>
+
+                            <img id="forecast-img4" src="" alt="">
+                            <span id="temp4"></span>
+
+                            <img id="forecast-img5" src="" alt="">
+                            <span id="temp5"></span>
+
+                        </div>
+
+                        <div class="line">
+                            <section class="townevents">
+                                <div class="section-header">Upcoming Events:</div>
+                                <div class="events"></div>
+                            
+                            </section>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+                <div class="contentbox3">
+                    <section class="article">
+                        <h3>About Fish Haven</h3><br>
+                        <div class="articlebox">
+                            <img class="article-img" src="images/park.jpg" alt="hangout at the park">
+                            <p>Fish Haven, originally named Rush Creek, is an unincorporated community along the shores of Bear Lake in Bear Lake County, Idaho, United States. It is 4 km (2.5 miles) north of the Utah border. <br /><br />
+
+                                The first settlement at Fish Haven was made in 1864. A post office called Fish Haven was established in 1867, and remained in operation until 1962. The community was so named because nearby Bear Lake is a favorite fishing spot. 
+                            </p>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="contentbox4">
+                    <div class="map">
+                        <img src="http://www.usbeacon.com/images/Idaho/maps/Fish-Haven_i.gif"
+                            alt="map of soda springs idaho">
+                    </div>
+                    <div class="info">
+                        <p>Southeast Idaho Weather<br>
+                            9786 East 76 North<br>Preston,ID 85246<br><br>
+                            ☎ (208) 976-5635<br>
+                            ✉ <a href="mailto:weather@idaho.com">weather@idaho.com</a></p>
+                    </div>
+                </div>
+        </main>
+
+        <footer class="clear">
+            &copy;2019 Alexis Palfreyman | Texas, USA | <a href="https://www.byui.edu/online">BYU-I Online Learning</a>
+            <br>
+            <span class="updated">
+                Current date: <span id="currentdate"></span>
+            </span>
+        </footer>
+
+        <script src="js/scripts.js"></script>
+        <script src="js/api.js"></script>
+
+    </div>
+</body>
+
+</html>
