@@ -48,4 +48,16 @@
         width: 90%;
     }
     /***Town Data***/
+    div.town-data section{
+        display: flex;
+      }
+    div.town-data section:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+    div.town-data section {
+        width: 86%;
+    }
+    .towns section div {
+            width: 100%;
+        }
 }
