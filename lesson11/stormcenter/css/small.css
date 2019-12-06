@@ -166,3 +166,12 @@ form input.submitbutton{
     width: 100%;
     max-width: 200px;
 }
+p.thanks{
+    background-color: #D09EFF;
+    width: 370px;
+    padding: 20px;
+    font-size: 1.5em;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+}
