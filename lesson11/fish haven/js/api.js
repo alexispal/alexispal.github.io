@@ -1,4 +1,4 @@
-const currentAPI = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=6a75ea9bff90407ac460f2b0f0297e8b';
+const currentAPI = 'https://api.openweathermap.org/data/2.5/weather?id=5585010&units=imperial&APPID=6a75ea9bff90407ac460f2b0f0297e8b';
 
 fetch(currentAPI)
     .then((response) => response.json())
@@ -35,7 +35,7 @@ fetch(currentAPI)
     });
 
 //Forecast//
-const forecastAPI = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=6a75ea9bff90407ac460f2b0f0297e8b';
+const forecastAPI = 'https://api.openweathermap.org/data/2.5/forecast?id=5585010&units=imperial&APPID=6a75ea9bff90407ac460f2b0f0297e8b';
 
 fetch(forecastAPI)
     .then((response) => response.json())
@@ -80,6 +80,8 @@ fetch(requestURL)
         const towns = jsonObject['towns'];
         var town = document.getElementsByTagName("h2")[0].textContent;
         for (let i = 0; i < towns.length; i++) {
+            console.log(towns[i].name);
+            console.log(town);
             if (towns[i].name == 'Preston' && town == "Preston Idaho") {
                 let townevents = document.createElement('ul');
 
