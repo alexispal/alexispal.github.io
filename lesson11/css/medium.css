@@ -60,4 +60,30 @@
     .towns section div {
             width: 100%;
         }
-}
+
+
+        /***hero image info/map***/
+            
+            .hero-image img{
+                width: 100%;
+                height: auto;
+            }
+            
+            .map{
+                display: block;
+                width: 100%;
+            }
+            
+            .info{
+                width: 50%;
+                    font-size: .8rem;
+                    text-align: left;
+            }
+            .forecast{
+                display: block;
+                font-size: 1.3em;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    

@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width-device-width">
+    <meta name="viewport" content="width=device-width">
     <title>Storm Center</title>
     <meta name="description" content="The Weather Site Home Page">
     <link rel="shortcut icon" href="favicon.ico">
@@ -44,26 +44,46 @@
         </nav>
 
         <main>
-            <div class="towns">
-                <h2>Town Details</h2>
-                <div class="town-data"></div>
-                
+            <!-- <div class="contentbox1">
+                <div class="hero-image">
+                    <img src="images/hero-image4.jpg" alt="grass, sky, and sun"
+                        srcset="images/hero-image4.jpg 527w, images/hero-image4.jpg 895w, images/hero-image4.jpg 1080w"
+                        sizes="100vw">
+                </div> -->
+
+
+                <div class="towns">
+                    <h2>Town Details</h2>
+                    <div class="town-data"></div>
+
+                </div>
             </div>
         </main>
+        <div class="contentbox4">
+            <div class="map">
+                <img src="https://imnh.iri.isu.edu/DigitalAtlas/geog/publrecr/images/scenic/10map.jpg"
+                    alt="map of idaho cities">
+            </div>
+            <div class="info">
+                <p>Southeast Idaho Weather<br>
+                    9786 East 76 North<br>Preston,ID 85246<br><br>
+                    ☎ (208) 976-5635<br>
+                    ✉ <a href="mailto:weather@idaho.com">weather@idaho.com</a></p>
+            </div>
+        </div>
+</body>
 
-    </body>
+<footer class="clear">
+    &copy;2019 Weather Dot Com | Atributions | <a href="alexispal.github.io/index.html">Alexis Palfreyman</a>
+    <br>
+    <span class="updated">
+        Current Date: <span id="currentdate"></span>
+        <span id="lastupdated"></span>
+    </span>
+</footer>
 
-    <footer class="clear">
-        &copy;2019 Weather Dot Com | Atributions | <a href="alexispal.github.io/index.html">Alexis Palfreyman</a>
-        <br>
-        <span class="updated">
-            Current Date: <span id="currentdate"></span>
-            <span id="lastupdated"></span>
-        </span>
-    </footer>
-    
-    <script src="js/scripts.js"></script>
-    <script src="js/currentdate.js"></script>
-    <script src="js/lazyload.js"></script>
-    
-    </html>
+<script src="js/scripts.js"></script>
+<script src="js/currentdate.js"></script>
+<script src="js/lazyload.js"></script>
+
+</html>

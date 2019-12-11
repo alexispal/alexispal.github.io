@@ -48,19 +48,7 @@
         border-bottom: solid #3DE1CC 1px;
         font-size:1.1rem;
     }
-    .img-label{
-        position: absolute;
-        top: 20px;
-        right: 20px;
-        font-size: 1em;
-        padding: 10px;
-    }
-    #medium{
-        color: red;
-    }
-    #small{
-        color:black;
-    }
+    
     .ws-content p{
         margin: 0;
         line-height: .5rem;
