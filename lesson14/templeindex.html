@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Temple Inn & Suites</title>
+    <meta name="description" content="Temple Inn & Suites Home Page">
+
+    <link rel="stylesheet" href="https://cloudfare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+    <link rel="stylesheet" href="css/small.css" type="text/css">
+    <link rel="stylesheet" href="css/medium.css" type="text/css">
+    <link rel="stylesheet" href="css/large.css" type="text/css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Quicksand&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="content">
+
+        <header>
+            <img src="images/angel_icon.png" alt="Temple Inn & Suites Logo">
+            <section>
+                <h1 class="title">Temple Inn & Suites </h1>
+                <div class="motto">Where the spirit always dwells</div>
+            </section>
+        </header>
+        <!--NAVIATION BAR-->
+        <nav>
+            <ul class="navigation">
+                <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li><a href="templeindex.html" class="active">Home</a></li>
+                <li><a href="temples.html">Temples</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <div class="hero-image">
+                    <form class="reservbtn" action="reservations.html" style="margin:auto;max-width:300px">
+                            <input class="submitbutton" type="submit" name="reserve" value="MAKE A RESERVATION!">
+                       </form>
+                <img src="images/provo_hero.jpg" alt="temple banner"
+                    srcset=" images/provo_hero.jpg 527w, images/provo_hero.jpg 895w, images/provo_hero.jpg 1080w"
+                    sizes="100vw">
+<!--BUTTONS-->
+                
+            </div>
+            <!--Search for Temples-->
+            <form class="searchbtn" action="temples.html" style="margin:auto;max-width:300px">
+                <input type="text" placeholder="Search for Temple..." name="search">
+                <button type="submit"><i class="fa fa-search"></i>
+                </button>
+            </form>
+
+            <section class="templeservices">
+                <figure><img src="images/bannerpic.jpg" alt="houston temple">
+                    <figcaption>
+                        <form class="templebtn" action="temples.html" style="margin:auto;max-width:300px">
+                            <input class="submitbutton" type="submit" name="temples" value="Temples">
+                       </form></figcaption>
+                </figure>
+                <figure><img src="images/services.jpg" alt="family">
+                    <figcaption><form class="servicesbtn" action="services.html" style="margin:auto;max-width:300px">
+                            <input class="submitbutton" type="submit" name="services" value="Services">
+                       </form></figcaption>
+                </figure>
+            </section>
+
+        </main>
+
+        <footer class="clear">
+            &copy;2019 Alexis Palfreyman | Temple Inn & Suites 
+            <br> <a href="https://www.churchofjesuschrist.org/">The Church of Jesus Christ of Latter-day Saints</a>
+            
+        </footer>
+    </div>
+</body>
+
+<script src="js/scripts.js"></script>
+
+</html>

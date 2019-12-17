@@ -1,0 +1,49 @@
+@media only screen and (min-width: 32.5em){
+    h1{
+            font-size: 40px;
+            margin-top: 25px;
+    }
+    footer{
+        font-size: 1.2em;
+    }
+    header img{
+        height: auto;
+        max-width: 80px;
+    }
+    .motto{
+        margin-top: -40px;
+        margin-left: 80px;
+        font-size: 1.1em;
+    }
+    .title{
+        font-size: 2.5em;
+    }
+    .navigation{
+        display: flex;
+        font-size: 12px;
+    }
+    .navigation a{
+        font-size: 1.5em;
+    }
+    .navigation li:first-child{
+        display: none;
+    }
+    .navigation li{
+        display: block;
+        flex: 1 1 100%;   
+    }
+    .active{
+        background-color: #80DED9;
+    }
+    .weather{
+        display: block;
+    }
+    .templeservices{
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+    }
+    .templeservices img{
+        width: 250px%;
+        height: 230px;
+    }
+}

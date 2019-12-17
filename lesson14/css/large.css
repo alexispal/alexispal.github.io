@@ -1,0 +1,42 @@
+@media only screen and (min-width: 60em){
+    body{
+        min-width: 330px;
+        height: 100%;
+    }
+    h1{
+        font-size: 50px;
+        margin-top: -2px;
+    }
+    .title{
+        margin-top: 30px;
+        font-size: 3.2em;
+    }
+    .motto{
+        font-size: 22px;
+        margin-left: 100px;
+        margin-top: -50px;
+    }
+    .navigation a{
+        font-size: 1.8em;
+    }
+    h2{
+        font-size: 22px;
+    }
+    header img{
+        height: auto;
+        max-width: 100px;
+    }
+    footer{
+        max-width: 80%;
+        margin:0 auto;
+        font-size: 1.3em;
+    }
+    main{
+        max-width:80%;
+    }
+    .templeservices img{
+        width: 350px%;
+        height: 330px;
+    }
+
+}
