@@ -371,3 +371,10 @@ picture img [data-src] {
 .contact-info{
     margin: 20px auto;
 }
+.contact-info p{
+    text-align: center;
+    background-color: #E1CE7A;
+    max-width: 250px;
+    padding: 10px;
+    margin: 0 auto;
+}
