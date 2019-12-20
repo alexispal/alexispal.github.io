@@ -198,6 +198,10 @@ font-size: 1.3em;
   }
 
   /***FORM STYLE***/
+  fieldset{
+      max-width: 800px;
+    margin:20px auto;
+}
   .flex-outer{
   list-style-type: none;
   padding: 0;
@@ -282,6 +286,11 @@ p.thanks{
     text-align: center;
     display: grid;
     grid-gap: 20px;
+    
+}
+.templeinfo ul li{
+    list-style-type: none;
+    text-align: left;
 }
 .templeinfo img{
     max-width: 400px;
@@ -301,4 +310,64 @@ p.thanks{
 }
 .servicesandamenities{
     padding: 20px;
+}
+.mapouter{
+    position: relative;
+    margin: 20px auto;
+    text-align: right;
+    height: 350px;
+    width: 450px;
+}
+.gmap_canvas{
+    overflow: hidden;
+    background: none;
+    height:350px;
+    width: 450px;
+}
+iframe{
+    border: 0;
+}
+/***RECEPTION & MISSIONARY***/
+.missionary{
+    margin: 20px auto;
+    border: 1px solid #424B54;
+    padding: 20px;
+    max-width: 450px;
+}
+
+.reception{
+    margin: 20px auto;
+    border: 1px solid #424B54;
+    padding: 20px;
+    max-width: 450px;
+}
+p{
+    font-size: 1em;
+}
+/***GALLERY***/
+.gallery{
+    margin: auto;
+    text-align: center;
+    display: grid;
+    grid-gap: 20px;
+    padding: 20px;
+}
+.gallery figure{
+    margin: 10px;
+}
+.gallery figcaption{
+    font-size: 1rem;
+}
+
+picture img [data-src] {
+    filter: blur(1em);
+}
+.missionary img{
+    max-width: 450px;
+    max-height: 350px;
+    padding: 20px;
+}
+/***CONTACT US***/
+.contact-info{
+    margin: 20px auto;
 }

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Services</title>
+    <meta name="description" content="Temple Inn & Suites Services Page">
+
+    <link rel="stylesheet" href="https://cloudfare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+    <link rel="stylesheet" href="css/small.css" type="text/css">
+    <link rel="stylesheet" href="css/medium.css" type="text/css">
+    <link rel="stylesheet" href="css/large.css" type="text/css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Quicksand&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="content">
+
+        <header>
+            <img src="images/angel_icon.png" alt="Temple Inn & Suites Logo">
+            <section>
+                <h1 class="title">Temple Inn & Suites </h1>
+                <div class="motto">Where the spirit always dwells</div>
+            </section>
+        </header>
+        <!--NAVIATION BAR-->
+        <nav>
+            <ul class="navigation">
+                <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li><a href="templeindex.html">Home</a></li>
+                <li><a href="temples.html">Temples</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+                <li><a href="services.html" class="active">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div class="hero-image">
+                <img src="images/hotel-room.jpg" alt="reception banner"
+                    srcset=" images/hotel-room.jpg 527w, images/hotel-room.jpg 895w, images/hotel-room.jpg 1080w"
+                    sizes="100vw">
+            </div>
+            <div class="missionarybox">
+                <section class="missionary">
+                    <h3>Full-time Temple Missionary Services</h3>
+                    <p>Our main priority is your comfort. For this reason, we offer the following services for you and
+                        your family to enjoy:</p>
+                    <ul>
+                        <li>Changing rooms and Bathroom facilities</li>
+                        <li>Baby-sitter services</li>
+                        <li>Long-term stay accomodations</li>
+                        <li>Reception and sitting area</li>
+                        <li>Catering and food services</li>
+                        <li>Family Search Center</li>
+                    </ul>
+                </section>
+
+                <section class="gallery">
+                    <figure>
+                        <picture><img src="images/placeholder-horizontal.jpg" data-src="images/bathroom.jpg" alt="">
+                        </picture>
+                        <figcaption>Bathroom facilities</figcaption>
+                    </figure>
+                    <figure>
+                        <picture><img src="images/placeholder-horizontal.jpg" data-src="images/baby-sitting.jpg" alt="">
+                        </picture>
+                        <figcaption>Baby-sitter services</figcaption>
+                    </figure>
+                    <figure>
+                        <picture><img src="images/placeholder-horizontal.jpg" data-src="images/bedroom.jpg" alt="">
+                        </picture>
+                        <figcaption>Long-term stay accomodations</figcaption>
+                    </figure>
+                    <figure>
+                        <picture><img src="images/placeholder-horizontal.jpg" data-src="images/sitting-area.jpg" alt="">
+                        </picture>
+                        <figcaption>Reception and sitting area</figcaption>
+                    </figure>
+                    <figure>
+                        <picture><img src="images/placeholder-horizontal.jpg" data-src="images/food.jpg" alt="">
+                        </picture>
+                        <figcaption>Catering and food services</figcaption>
+                    </figure>
+                    <figure>
+                        <picture><img src="images/placeholder-horizontal.jpg" data-src="images/family-search.jpg"
+                                alt=""></picture>
+                        <figcaption>Family Search Center</figcaption>
+                    </figure>
+                </section>
+            </div>
+            <section class="contact-info">
+                <h2>Contact Us</h2>
+                <form method="get" action="submissionmsg.html">
+                    <fieldset>
+                        <ul class="flex-outer">
+                            <li>
+                                <label for="full-name">Full Name</label>
+                                <input type="text" id="full-name" placeholder="Full name here"
+                                    pattern="[A-Za-z ,.'-]{5,}" required>
+                            </li>
+                            <li>
+                                <label for="email">Email</label>
+                                <input type="email" id="email" placeholder="Email here" required>
+                            </li>
+                            <li>
+                                <label for="message">Message</label>
+                                <textarea rows="6" id="message" placeholder="Enter your message here"></textarea>
+                            </li>
+                            <li>
+                                <button type="submit">Submit</button>
+                            </li>
+                        </ul>
+                    </fieldset>
+
+                </form>
+            </section>
+        </main>
+        <footer class="clear">
+            &copy;2019 Alexis Palfreyman | Temple Inn & Suites
+            <br> <a href="https://www.churchofjesuschrist.org/">The Church of Jesus Christ of Latter-day Saints</a><br>
+            Works Cited and Images Used: <a href="https://www.churchofjesuschrist.org/">Church of Jesus Christ Site</a>
+            & <a href="https://www.pexels.com/">Pexels</a>
+
+        </footer>
+        <script src="js/scripts.js"></script>
+    </div>
+</body>
+</html>

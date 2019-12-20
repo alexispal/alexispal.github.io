@@ -73,4 +73,33 @@
         max-width: 600px;
         font-size: 1em;
     }
+    /***MAP***/
+    .mapouter{
+        height:400px;
+        width: 500px;
+    }
+    .gmap_canvas{
+        height:400px;
+        width: 500px;
+    }
+    /***Missionary and Services***/
+    .missionary img{
+        max-width: 500px;
+        max-height: 400px;
+}
+.reception{
+    max-width: 700px;
+}
+p{
+    font-size: 1em;
+}
+/***GALLERY***/
+.gallery{
+    grid-template-columns: 1fr 1fr;
+    max-width: 960px;
+    justify-content: center;
+}
+.gallery figcaption{
+    font-size:1.2rem;
+}
 }

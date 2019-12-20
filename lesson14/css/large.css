@@ -40,11 +40,12 @@
     }
     .templeinfo img{
         max-width: 500px;
+        min-width:500px;
         max-height: 350px;
     }
-    fieldset{
-        margin:20px;
-    }
+fieldset{
+    margin: 20px auto;
+}
     .services{
         max-width: 800px;
         margin:20 auto;
@@ -58,5 +59,28 @@
     .receptionandmissionary img{
         width: 400px;
         height: 600px;
+    }
+    /***MAP***/
+    .mapouter{
+        height:500px;
+        width: 600px;
+    }
+    .gmap_canvas{
+        height:500px;
+        width: 600px;
+    }
+    /***GALLERY***/
+    .gallery{
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+    }
+    .gallery figcaption{
+        font-size: 1rem;
+    }
+    .reception{
+        max-width: 800px;
+    }
+    p{
+        font-size: 1.2em;
     }
 }

@@ -39,13 +39,47 @@
                 <li><a href="contact.html" class="active">Contact</a></li>
             </ul>
         </nav>
-    <main>
+        <main>
+            <section class="contact-info">
+                <h2>Contact Us</h2>
+                <form method="get" action="submissionmsg.html">
+                    <fieldset>
+                        <ul class="flex-outer">
+                            <li>
+                                <label for="full-name">Full Name</label>
+                                <input type="text" id="full-name" placeholder="Full name here"
+                                    pattern="[A-Za-z ,.'-]{5,}" required>
+                            </li>
+                            <li>
+                                <label for="email">Email</label>
+                                <input type="email" id="email" placeholder="Email here" required>
+                            </li>
+                            <li>
+                                <label for="message">Message</label>
+                                <textarea rows="6" id="message" placeholder="Enter your message here"></textarea>
+                            </li>
+                            <li>
+                                <button type="submit">Submit</button>
+                            </li>
+                        </ul>
+                    </fieldset>
+                    <div class="mapouter">
+                        <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas"
+                                src="https://maps.google.com/maps?q=4800%20Montgomery%20Ln%2C%20Bethesda%2C%20MD%2020814&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+                            <a href="https://www.embedgooglemap.org">embed google map wordpress</a></div>
+                    </div>
+                </form>
+            </section>
 
-    </main>
-    <footer class="clear">
-        &copy;2019 Alexis Palfreyman | Temple Inn & Suites
-        <br> <a href="https://www.churchofjesuschrist.org/">The Church of Jesus Christ of Latter-day Saints</a>
+        </main>
+        <footer class="clear">
+            &copy;2019 Alexis Palfreyman | Temple Inn & Suites
+            <br> <a href="https://www.churchofjesuschrist.org/">The Church of Jesus Christ of Latter-day Saints</a><br>
+            Works Cited and Images Used: <a href="https://www.churchofjesuschrist.org/">Church of Jesus Christ Site</a>
+            & <a href="https://www.pexels.com/">Pexels</a>
 
-    </footer>
-    <script src="js/scripts.js"></script>
+        </footer>
+        <script src="js/scripts.js"></script>
+    </div>
 </body>
+</html>
