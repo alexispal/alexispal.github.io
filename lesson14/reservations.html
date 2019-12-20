@@ -57,11 +57,11 @@
                     </li>
                     <li>
                         <label for="date">Start Date</label>
-                        <input type="date" name="reservationDate" autofocus required>
+                        <input type="date" name="reservationDate" required>
                     </li>
                     <li>
                         <label for="date">End Date</label>
-                        <input type="date" name="reservationDate" autofocus required>
+                        <input type="date" name="reservationDate" required>
                     </li>
                     <li>
                         <label for="message">Special<br>Accomodations/<br>Comments</label>
@@ -72,12 +72,12 @@
                         <legend>PERSONAL INFORMATION</legend>
                     <li>
                         <label for="full-name">Full Name</label>
-                        <input type="text" id="full-name" placeholder="Enter your full name here"
-                            pattern="[A-Za-z ,.'-]{5,}" autofocus required>
+                        <input type="text" id="full-name" placeholder="Full name here"
+                            pattern="[A-Za-z ,.'-]{5,}" required>
                     </li>
                     <li>
                         <label for="last-name">Number and<br>Type of Rooms</label>
-                        <select name="number" id="rooms" autofocus required>
+                        <select name="number" id="rooms" required>
                             <option value selected="selected" disabled>Select Number...</option>
                             <option value="one">1 Rooms</option>
                             <option value="two">2 Rooms</option>
@@ -86,7 +86,7 @@
                             <option value="five">10-25 Rooms</option>
                             <option value="six">26+Rooms</option>
                         </select>
-                        <select name="type" id="typerooms" autofocus required>
+                        <select name="type" id="typerooms" required>
                             <option value selected="selected" disabled>Select Type...</option>
                             <option value="king">King Bed</option>
                             <option value="double">Double Beds</option>
@@ -94,15 +94,15 @@
                     </li>
                     <li>
                         <label for="email">Email</label>
-                        <input type="email" id="email" placeholder="Enter your email here" autofocus required>
+                        <input type="email" id="email" placeholder="Email here" required>
                     </li>
                     <li>
                         <label for="phone">Phone</label>
-                        <input type="tel" id="phone" placeholder="Enter your phone here">
+                        <input type="tel" id="phone" placeholder="Phone number here">
                     </li>
                     <li>
                         <label for="home-state">Home State</label>
-                        <input type="state" id="state" placeholder="Enter your home state here">
+                        <input type="state" id="state">
                     </li>
                     </fieldset>
                     <li>
@@ -117,4 +117,6 @@
 
         </footer>
         <script src="js/scripts.js"></script>
+        </div>
+
 </body>

@@ -45,4 +45,18 @@
     fieldset{
         margin:20px;
     }
+    .services{
+        max-width: 800px;
+        margin:20 auto;
+        font-size:1.2em;
+    }
+    .amenities{
+        max-width: 800px;
+        margin:20px auto;
+        font-size:1.2em;
+    }
+    .receptionandmissionary img{
+        width: 400px;
+        height: 600px;
+    }
 }

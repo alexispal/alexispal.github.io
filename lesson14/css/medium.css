@@ -45,9 +45,17 @@
         grid-template-columns: 1fr 1fr;
         justify-content: center;
     }
+    .receptionandmissionary{
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+    }
     .templeservices img{
         width: 280px;
         height: 210px;
+    }
+    .receptionandmissionary img{
+        width: 330px;
+        height: 470px;
     }
     .temples{
         grid-template-columns: 1fr 1fr;
@@ -56,5 +64,13 @@
     }
     fieldset{
         margin:10px;
+    }
+    .services{
+        max-width: 600px;
+        font-size:1em;
+    }
+    .amenities{
+        max-width: 600px;
+        font-size: 1em;
     }
 }
