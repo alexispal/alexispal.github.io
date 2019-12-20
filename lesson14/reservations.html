@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Reservations</title>
+    <meta name="description" content="Temple Inn & Suites Reservations Page">
+
+    <link rel="stylesheet" href="https://cloudfare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+    <link rel="stylesheet" href="css/small.css" type="text/css">
+    <link rel="stylesheet" href="css/medium.css" type="text/css">
+    <link rel="stylesheet" href="css/large.css" type="text/css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Quicksand&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="content">
+
+        <header>
+            <img src="images/angel_icon.png" alt="Temple Inn & Suites Logo">
+            <section>
+                <h1 class="title">Temple Inn & Suites </h1>
+                <div class="motto">Where the spirit always dwells</div>
+            </section>
+        </header>
+        <!--NAVIATION BAR-->
+        <nav>
+            <ul class="navigation">
+                <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li><a href="templeindex.html">Home</a></li>
+                <li><a href="temples.html">Temples</a></li>
+                <li><a href="reservations.html" class="active">Reservations</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Book a Reservation</h2>
+            <form method="get" action="thanks.html">
+                <ul class="flex-outer">
+                    <fieldset>
+                        <legend>RESERVATION DETAILS</legend>
+                    <li>
+                        <label for="location">Location</label>
+                        <select name="location" id="location" autofocus required>
+                            <option value selected="selected" disabled>Select Location...</option>
+                            <option value="tx">Houston Texas</option>
+                            <option value="mx">Mexico City</option>
+                            <option value="id">Idaho Falls</option>
+                            <option value="mty">Monterrey Mexico</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label for="date">Start Date</label>
+                        <input type="date" name="reservationDate" autofocus required>
+                    </li>
+                    <li>
+                        <label for="date">End Date</label>
+                        <input type="date" name="reservationDate" autofocus required>
+                    </li>
+                    <li>
+                        <label for="message">Special<br>Accomodations/<br>Comments</label>
+                        <textarea rows="6" id="message" placeholder="Enter your comments here"></textarea>
+                    </li>
+                    </fieldset>
+                    <fieldset>
+                        <legend>PERSONAL INFORMATION</legend>
+                    <li>
+                        <label for="full-name">Full Name</label>
+                        <input type="text" id="full-name" placeholder="Enter your full name here"
+                            pattern="[A-Za-z ,.'-]{5,}" autofocus required>
+                    </li>
+                    <li>
+                        <label for="last-name">Number and<br>Type of Rooms</label>
+                        <select name="number" id="rooms" autofocus required>
+                            <option value selected="selected" disabled>Select Number...</option>
+                            <option value="one">1 Rooms</option>
+                            <option value="two">2 Rooms</option>
+                            <option value="three">3 Rooms</option>
+                            <option value="four">4-9 Rooms</option>
+                            <option value="five">10-25 Rooms</option>
+                            <option value="six">26+Rooms</option>
+                        </select>
+                        <select name="type" id="typerooms" autofocus required>
+                            <option value selected="selected" disabled>Select Type...</option>
+                            <option value="king">King Bed</option>
+                            <option value="double">Double Beds</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Enter your email here" autofocus required>
+                    </li>
+                    <li>
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" placeholder="Enter your phone here">
+                    </li>
+                    <li>
+                        <label for="home-state">Home State</label>
+                        <input type="state" id="state" placeholder="Enter your home state here">
+                    </li>
+                    </fieldset>
+                    <li>
+                        <button type="submit">Book Reservation</button>
+                    </li>
+                </ul>
+            </form>
+        </main>
+        <footer class="clear">
+            &copy;2019 Alexis Palfreyman | Temple Inn & Suites
+            <br> <a href="https://www.churchofjesuschrist.org/">The Church of Jesus Christ of Latter-day Saints</a>
+
+        </footer>
+        <script src="js/scripts.js"></script>
+</body>

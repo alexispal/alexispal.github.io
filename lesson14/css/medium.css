@@ -3,6 +3,9 @@
             font-size: 40px;
             margin-top: 25px;
     }
+    h2{
+        font-size: 1.8em;
+    }
     footer{
         font-size: 1.2em;
     }
@@ -45,5 +48,13 @@
     .templeservices img{
         width: 280px;
         height: 210px;
+    }
+    .temples{
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    fieldset{
+        margin:10px;
     }
 }
